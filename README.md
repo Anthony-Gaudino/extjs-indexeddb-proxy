@@ -40,6 +40,9 @@ adding the file:
 
 Copy the `data` directory into your `app` directory. Example: `MYPROJ/app/data`.
 
+Edit `MYPROJ/app/data/proxy/IndexedDB.js` and replace `MYPROJ` in
+`Ext.define('MYPROJ.app.data.proxy.IndexedDB', {` by your own project name.
+
 ## Usage
 
 Let's imagine we're writing a Twitter search application and want to save the
